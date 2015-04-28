@@ -6,6 +6,8 @@
 
 ##Week 2: Layout
 
+###Day 1: [HTML Review and CSS Introduction](week_02_layout/02_css_basics/)
+
 ###Day 2: [CSS Layout](week_02_layout/04_layout/)
 
 ##Week 3: Advanced Layout
