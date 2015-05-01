@@ -12,6 +12,8 @@
 
 ##Week 3: Advanced Layout
 
+###Day 1: [More Layout](week_03_advanced_layout/05_more_layout/)
+
 ###Day 2: [Bootstrap Framework](week_03_advanced_layout/06_bootstrap/)
 
 ##Week 4: Introduction to Programming
