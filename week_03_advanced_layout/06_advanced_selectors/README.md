@@ -9,7 +9,7 @@
 - In CSS there is a concept called pseudo-classes that allow you do a little work with states and element subsets.
 - The most popular is the hover pseudo-class:
 
-```
+```css
 a {
 	color:blue;
 	font-size:1em;
@@ -30,7 +30,7 @@ a:hover {
 
 HTML
 
-```
+```html
 <div class="container">
 	<div></div>
 	<div></div>
@@ -40,7 +40,7 @@ HTML
 
 CSS
 
-```
+```css
 div div {
 	width:200px;
 	height:100px;
@@ -51,7 +51,7 @@ div div {
 
 Same as:
 
-```
+```css
 .container div {
 	width:200px;
 	height:100px;
@@ -65,7 +65,7 @@ Same as:
 
 HTML
 
-```
+```html
 <ul class="grocery-list">
 	<li> Produce
 		<ul>
@@ -86,7 +86,7 @@ HTML
 
 CSS
 
-```
+```css
 li {
 	color:#000000;
 }
@@ -210,3 +210,8 @@ CSS
 - Make every other table row in both tables have a gray background.
 - Select an anchor tag that has a link to a pdf file. Change the color to blue and increase the font size.
 - Select an anchor tag that has an href attribute containing the substring "asyoulikeit" and change the font color to orange.
+
+##Homework
+- Finish fashion blog
+- Review CSS selectors
+- Review documentation for [Twitter Bootstrap](http://getbootstrap.com/).
