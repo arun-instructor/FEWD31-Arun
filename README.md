@@ -14,7 +14,7 @@
 
 ###Day 1: [More Layout](week_03_advanced_layout/05_more_layout/)
 
-###Day 2: [Advanced CSS Selectors](06_advanced_selectors/)
+###Day 2: [Advanced CSS Selectors](week_03_advanced_layout/06_advanced_selectors/)
 
 ##Week 4: Finish Layout and Introduction to Programming
 
