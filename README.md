@@ -18,7 +18,7 @@
 
 ##Week 4: Finish Layout and Introduction to Programming
 
-###Day 1: [Bootstrap Framework](week_03_advanced_layout/07_bootstrap/)
+###Day 1: [Bootstrap Framework](week_04_intro_javascript/07_bootstrap/)
 
 ###Day 2: [Introduction to JavaScript](week_04_intro_javascript/08_js_basics/)
 
