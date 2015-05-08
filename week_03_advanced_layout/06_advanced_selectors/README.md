@@ -133,7 +133,7 @@ a[href='http://google.com'] {
 
 HTML
 
-```
+```html
 <div class="container">
 	<div></div>
 	<div></div>
@@ -143,7 +143,7 @@ HTML
 
 CSS
 
-```
+```css
 .container div {
 	width:200px;
 	height:100px;
@@ -215,3 +215,4 @@ CSS
 - Finish fashion blog
 - Review CSS selectors
 - Review documentation for [Twitter Bootstrap](http://getbootstrap.com/).
+- Bonus: Go through the JavaScript sections of Dash.
