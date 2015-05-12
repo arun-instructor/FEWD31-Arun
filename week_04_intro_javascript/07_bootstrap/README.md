@@ -122,4 +122,4 @@ CSS
 - For homework we will be coding from scratch [this Bootstrap template](http://getbootstrap.com/examples/offcanvas/).
 - Try not to look at the code through the code inspector! X-(
 - Try to first plan out the grid you will use, then figure out which components you will need.
-	- Hint: There is a jumbotron in there ;) You're welcome.
+- Go through the JavaScript exercises on [Codecademy](http://www.codecademy.com/).
