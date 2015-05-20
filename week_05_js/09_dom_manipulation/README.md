@@ -46,7 +46,7 @@ var myObject = {
 
 ##Object Exercises
 
-1. How would you represent the following using and object literal. Then update john's address to 1234 Park ln.
+1. How would you represent the following using an object literal. Then update john's address to 1234 Park ln.
 
 ```
 John, Doe, 36, 1234 Park st.
