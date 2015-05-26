@@ -75,11 +75,30 @@ transform: transform-function;
 
 - As you can see, the div rotates instantly. How do you think we can animate the rotation instead?
 
-##Animate.css
-- Animate.css is a library that packages a number of useful animations that can be accessed via classes.
-- You can check it out [here](http://daneden.github.io/animate.css/).
-- To use this in conjunction with jQuery, there is a great plugin we can use [here](https://github.com/craigmdennis/animateCSS).
+##Media Query Refresher
+- Let's review what a media query is and how we use it.
+- Work with your partner to create a single div on CodePen that is shown only when the screen is between 700 and 900 pixels wide.
 
-##Personal Landing Page Lab
-- In this lab we will create a personal landing page.
-- Your mission is to use Bootstrap, jQuery, and any CSS animations to create a compelling and interesting personal home page.
+##Media Queries with Bootstrap
+- Media queries are a core concept in Bootstrap, and are used extensively throughout the framework.
+- If you are comfortable using the Bootstrap pre-defined media query breakpoints then you're in luck. Bootstrap gives us a [few helper classes](http://getbootstrap.com/css/#responsive-utilities-classes) to toggle visibility.
+- Let's set up a new Bootstrap project to test out these visibility classes with a single div.
+
+##In-Class Lab / Homework: Redesign the Header
+- Media queries play a huge part in making websites ready for mobile.
+- As a front end developer you will likely run into many situations where you have to take existing content and transform it into a mobile-ready layout.
+- In this exercise we will take a navigation menu already created for you [here](header_redesign/) and redesign it for mobile devices.
+- Start by adding your own CSS file so that you can clearly see what code you wrote.
+- For this exercise you will want to use either custom media queries or Bootstrap's visibility classes.
+- Use your creativity to come up with something enticing.
+- **Bonus:** Use jQuery to create the sliding functionality of the standard Bootstrap navbar for your redesigned version.
+- **Super Bonus:** If you're really pushing ahead, try implementing Animate.css for some cool effects.
+
+##Further Reading / Next Time:
+- We will be going over building forms in next class.
+- Have a look over the weekend at these tags specifically:
+	- `<input>`
+	- `<select>`
+	- `<textarea>`
+- Have a look at [jQuery AJAX](http://api.jquery.com/jquery.ajax/) since we will be using it to submit the form contents.
+- Check out the `.val()` jQuery function to grab form data.

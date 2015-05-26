@@ -34,11 +34,11 @@
 
 ###Day 2: [Bootstrap + jQuery](week_06_review/12_jquery_bootstrap/)
 
-##Week 7: Advanced CSS
+##Week 7: Advanced CSS and Forms
 
-###Day 1: [CSS Trickshots Part 1](week_07_advanced_css/13_css_trickshots_1/)
+###Day 1: [CSS Trickshots](week_07_advanced_css_and_forms/13_css_trickshots/)
 
-###Day 2: [CSS Trickshots Part 2](week_07_advanced_css/14_css_trickshots_2/)
+###Day 2: [Building Forms and Validation](week_07_advanced_css_and_forms/14_forms/)
 
 ##Week 8: Forms and AJAX
 
