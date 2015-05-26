@@ -40,17 +40,17 @@
 
 ###Day 2: [Building Forms and Validation](week_07_advanced_css_and_forms/14_forms/)
 
-##Week 8: Forms and AJAX
+##Week 8: AJAX and Templating
 
-###Day 1: [Building Forms and Validation](week_08_forms_and_ajax/15_forms/)
+###Day 1: [Introduction to AJAX](week_08_ajax_and_templating/15_ajax/)
 
-###Day 2: [Introduction to AJAX](week_08_forms_and_ajax/16_ajax/)
+###Day 2: [Templating](week_08_ajax_and_templating/16_templating/)
 
 ##Week 9: APIs and Templating
 
-###Day 1: [Templating](week_09_apis_and_templating/17_templating/)
+###Day 1: [Templating Continued](week_09_apis_and_templating/17_templating_continued/)
 
-###Day 2: [Templating Continued](week_09_apis_and_templating/18_templating_continued/)
+###Day 2: [Spotify API](week_09_apis_and_templating/18_spotify_api/)
 
 ##Week 10: Student Choice
 
