@@ -9,16 +9,14 @@ $(document).on("click", "#movie-search-button", function(event) {
 		type: "GET",
 		url: "http://omdbapi.com?s=" + encodeURIComponent($("#movie-title").val()),
 		success: function(data) {
-			var movies = JSON.parse(data).Search;
+			var movies = data.Search;
 
 			movies.forEach(function(movie) {
 				$.ajax({
 					type: "GET",
 					url: "http://omdbapi.com?i=" + movie.imdbID,
-					success: function(info) {
+					success: function(movieData) {
 						$("#search-input-box").fadeOut(function() {
-							var movieData = JSON.parse(info);
-
 							var source = $("#movie-card-template").html();
 
 							var template = Handlebars.compile(source);

@@ -1,4 +1,4 @@
-#CSS TrickShots Part 1
+#CSS TrickShots
 
 ##Introduction
 - CSS gives us a ton of tools regarding layout, responsive design, and ui components.
