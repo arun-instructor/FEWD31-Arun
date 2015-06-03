@@ -1,11 +1,11 @@
 #CSS TrickShots
 
 ##Homework Review
-- Last class we built a personal portfolio page.
+- Last class we redesigned a web page.
 - Turn to a partner and share your work:
 	- What worked well?
 	- What was challenging?
-	- What technologies did you use?
+	- What plugins and tools did you use?
 
 ##Introduction
 - CSS gives us a ton of tools regarding layout, responsive design, and ui components.
