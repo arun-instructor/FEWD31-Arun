@@ -161,6 +161,11 @@ div {
 - **Bonus:** Use jQuery to create the sliding functionality of the standard Bootstrap navbar for your redesigned version.
 - **Super Bonus:** If you're really pushing ahead, try implementing Animate.css for some cool effects.
 
+##Bonus Reading: Animate.css
+- Animate.css is a library that packages a number of useful animations that can be accessed via classes.
+- You can check it out [here](http://daneden.github.io/animate.css/).
+- To use this in conjunction with jQuery, there is a great plugin we can use [here](https://github.com/craigmdennis/animateCSS).
+
 ##Further Reading / Next Time:
 - We will be going over building forms in next class.
 - Have a look over the weekend at these tags specifically:
