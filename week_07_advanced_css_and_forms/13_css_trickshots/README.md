@@ -167,5 +167,4 @@ div {
 	- `<input>`
 	- `<select>`
 	- `<textarea>`
-- Have a look at [jQuery AJAX](http://api.jquery.com/jquery.ajax/) since we will be using it to submit the form contents.
 - Check out the `.val()` jQuery function to grab form data.
