@@ -1,5 +1,12 @@
 #CSS TrickShots
 
+##Homework Review
+- Last class we built a personal portfolio page.
+- Turn to a partner and share your work:
+	- What worked well?
+	- What was challenging?
+	- What technologies did you use?
+
 ##Introduction
 - CSS gives us a ton of tools regarding layout, responsive design, and ui components.
 - In addition to this however CSS allow us to do some pretty neat things like animations and transforms.
@@ -74,6 +81,66 @@ transform: transform-function;
 ```
 
 - As you can see, the div rotates instantly. How do you think we can animate the rotation instead?
+
+##CSS Keyframes
+- Keyframes allow you to perform complex animations using CSS alone.
+- The idea is that instead of transitioning an element from one state to another slowly, you are specifying style attributes that must be accomplished during stops along the animation.
+- Here is the syntax:
+
+```
+div {
+	width:100px;
+	height:200px;
+	background-color:red;
+	-webkit-animation:identifier 5s ease-in-out infinite;
+	animation:identifier 5s ease-in-out infinite;
+}
+
+@-webkit-keyframes identifier {
+	0% {
+		top:200px;
+	}
+
+	25% {
+		top:50px;
+	}
+
+	75% {
+		left:100px;
+	}
+
+	100% {
+		top:0;
+	}
+}
+
+@keyframes identifier {
+	0% {
+		top:200px;
+	}
+
+	25% {
+		top:50px;
+	}
+
+	75% {
+		left:100px;
+	}
+
+	100% {
+		top:0;
+	}
+}
+```
+
+##Keyframes Exercise
+- Try out some of the keyframes along with a transform function.
+- One idea may be to rotate a div during a keyframe animation.
+- Observe what happens as the div is transformed. Is this what you expected? Why or why not?
+- **Bonus:** Now take things a step further and integrate keyframes with JavaScript.
+	- Bind a click event to a button that adds a class to the div.
+	- Your class should play a keyframe animation of its own.
+	- Use at least one transform function in your keyframe.
 
 ##Media Query Refresher
 - Let's review what a media query is and how we use it.
