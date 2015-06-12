@@ -80,6 +80,25 @@ $("#some-div").html(template_html);
 ##Code-Along: Wine Template
 - For this code-along we will be using jQuery AJAX with Handlebars to pull dynamic wine data and place it into a template.
 - The HTML and CSS has already been done for you, and you can find it [here](wine_manager_html/).
+- To make Handlebars a bit simpler, we will be using a home-made library called [Handle.js](handle.js).
+
+##Documentation for Handle.js
+- Handle.js is very simple to use, as it only contains one function - renderTemplate.
+- In order to render a template using handle.js you have to pass it the following information as an object:
+	- `templateSource` - ID of the template HTML
+	- `data` - Data in any format (JSON, Array, etc.)
+	- `where` - ID of the element you want to place the template inside
+	- `clearOriginal` - True or false if you want to clear what was originally in the container before the template is added
+- An example use:
+
+```javascript
+HANDLE.renderTemplate({
+	templateSource: "#user-template", 
+	data: users, 
+	where: "#container", 
+	clearOriginal: true
+});
+```
 
 ##Querying Real-Life APIs
 - API stands for Application Programmable Interface. It essentially gives you access to a limited set of the application's features in a structured and controlled way.
@@ -98,10 +117,3 @@ $("#some-div").html(template_html);
 	- Step 1: Create a simple form that allows the user to enter a movie title of their choice.
 	- Step 2: Query the API using the entered title and display the JSON results in the console.
 	- Step 3: Take the JSON and create a Handlebars template to show the information.
-
-##Project Meetings
-- We will be meeting with each of you to discuss your project proposal during the lab time.
-- Please come to the meeting with:
-	- Your idea proposal.
-	- The technologies you want to use.
-	- Any supporting information or mockups you may have (not required).
