@@ -54,6 +54,6 @@
 
 ##Week 10: Student Choice
 
-###Day 1: [SASS](week_10_student_choice/19_sass/)
+###Day 1: [NodeJS](week_10_student_choice/19_node/)
 
 ###Day 2: Project Work
